@@ -87,7 +87,7 @@ Esta es una aplicación de microblogging desarrollada con Laravel 9 siguiendo lo
     ```bash
     docker-compose up -d
     ```
-Esto descargará las imágenes necesarias y construirá los contenedores para ejecutar la aplicación.
+    Esto descargará las imágenes necesarias y construirá los contenedores para ejecutar la aplicación.
 
 * Ejecutar las migraciones:
 
@@ -125,7 +125,7 @@ La aplicación estará disponible en http://localhost:8000
 
 #### Ver el timeline
 
-* `GET /timeline?user_id={user_id}`
+`GET /timeline?user_id={user_id}`
 
 ## Arquitectura
 
@@ -182,10 +182,8 @@ Implementaciones concretas:
    - Caché distribuido con Redis
    - Arquitectura stateless para escalado horizontal
 
-
 ## Tests
 
-Ejecutar las pruebas:
     ```bash
     docker-compose exec app php artisan test
     ```
@@ -216,6 +214,6 @@ El proyecto incluye:
 
 Para detener y eliminar los contenedores:
 
-```bash
+    ```bash
     docker-compose down -v
-```
+    ```
