@@ -184,9 +184,9 @@ Implementaciones concretas:
 
 ## Tests
 
-    ```bash
-    docker-compose exec app php artisan test
-    ```
+```bash
+docker-compose exec app php artisan test
+```
 
 El proyecto incluye:
 - Pruebas unitarias para casos de uso
@@ -214,6 +214,6 @@ El proyecto incluye:
 
 Para detener y eliminar los contenedores:
 
-    ```bash
-    docker-compose down -v
-    ```
+```bash
+docker-compose down -v
+```
